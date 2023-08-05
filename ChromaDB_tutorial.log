@@ -1,0 +1,133 @@
+bash-3.2$ python3.11 OSVDBLcCOAI.py 
+429
+Downloading (…)e9125/.gitattributes: 100%|███████████████████████████████████████████████████████████████████████| 1.18k/1.18k [00:00<00:00, 374kB/s]
+Downloading (…)_Pooling/config.json: 100%|███████████████████████████████████████████████████████████████████████████| 190/190 [00:00<00:00, 493kB/s]
+Downloading (…)7e55de9125/README.md: 100%|██████████████████████████████████████████████████████████████████████| 10.6k/10.6k [00:00<00:00, 18.9MB/s]
+Downloading (…)55de9125/config.json: 100%|██████████████████████████████████████████████████████████████████████████| 612/612 [00:00<00:00, 2.20MB/s]
+Downloading (…)ce_transformers.json: 100%|███████████████████████████████████████████████████████████████████████████| 116/116 [00:00<00:00, 482kB/s]
+Downloading (…)125/data_config.json: 100%|██████████████████████████████████████████████████████████████████████| 39.3k/39.3k [00:00<00:00, 2.64MB/s]
+Downloading pytorch_model.bin: 100%|████████████████████████████████████████████████████████████████████████████| 90.9M/90.9M [00:14<00:00, 6.34MB/s]
+Downloading (…)nce_bert_config.json: 100%|█████████████████████████████████████████████████████████████████████████| 53.0/53.0 [00:00<00:00, 219kB/s]
+Downloading (…)cial_tokens_map.json: 100%|███████████████████████████████████████████████████████████████████████████| 112/112 [00:00<00:00, 481kB/s]
+Downloading (…)e9125/tokenizer.json: 100%|████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 2.54MB/s]
+Downloading (…)okenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████| 350/350 [00:00<00:00, 2.94MB/s]
+Downloading (…)9125/train_script.py: 100%|██████████████████████████████████████████████████████████████████████| 13.2k/13.2k [00:00<00:00, 28.8MB/s]
+Downloading (…)7e55de9125/vocab.txt: 100%|████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 4.61MB/s]
+Downloading (…)5de9125/modules.json: 100%|██████████████████████████████████████████████████████████████████████████| 349/349 [00:00<00:00, 1.01MB/s]
+bash-3.2$ python3.11 OSVDBLcCOAI.py 
+429
+
+
+> Entering new StuffDocumentsChain chain...
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: Use the following pieces of context to answer the users question. 
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+----------------
+Nowadays, Multi-Criteria Decision Analysis is increasingly supported by specialised software (mostly web-based). Before the advent of the World Wide Web in the 199 Dyer (1973).
+
+MCDA software frees "the facilitator/analyst and decision-maker from the technical implementation details, allowing them to focus on the fundamental value judgmen MCDA software is especially useful for applications involving many alternatives and criteria, and when the methods for determining the weights on the criteria (and scc Also, software capable of surveying potentially 1000s of people is useful for applications based on eliciting and analyzing the preferences of members of the general p MCDA software, ranging from the most basic to the state of the art, is catalogued in these three overviews:
+
+@ Wikipedia's “comparison of decision-making software” (https://en.wikipedia.org/wiki/Decision-making_software#Comparison_of_decision-making_software) — ar
+
+Geometry
+
+Performances
+
+Input
+
+Input
+
+EA formula library
+
+Input checker
+
+Searching engine
+
+EA structure library
+
+Input
+
+Calculation engine
+
+Material
+
+Output
+
+Geometry
+
+properties
+
+Material
+
+Output
+
+Performances
+
+properties
+
+Knowledge-based optimal design search module
+
+Knowledge-based design result calculation module
+
+Optimal EA set
+
+EA real-time drawer
+
+EA supporting knowledge library
+
+Display
+
+User guide
+
+Display
+
+Display
+
+Video demonstration
+
+Topology
+
+Supporting knowledge demonstration module
+
+Fig. 4. Flow chart and elements of the design support system.
+
+Since the energy-absorbing performances of EAs (e.g. average force, bending moment, etc.) are determined by their geometry (may include topologies and dimensions) and materials properties (may include yield stress, ultimate stress, etc.) [1], a library known as EA structure library was built to contain their code names, dimension set, material property set and performance set. The data in the library are collected from the relevant design handbooks and reli- able research literatures. According to the desired energy- absorbing performances, the code name, material proper- ties and dimensions of the corresponding EA can be retrieved, and vice versa, if needed. The relationship of the records in the library is expressed as a hierarchical
+
+In the following sub-sections, all of the three main func- tional modules of the design support system will be intro- duced in detail.
+
+3.1. Knowledge-based optimal design search module
+
+Common to these examples and all MCDA applications in general is that they involve alternatives (including people) being ranked or chosen based on considering mu money (/decision-making/value-for-money)’.
+
+Traditional intuitive decision
+
+
+
+making compared to
+
+lysis) / |
+
+Of course, considering multiple criteria when ranking or choosing between alternatives is a natural approach for making decisions that is as old and fundamental as ht involves evaluating the criteria and the trade-offs between them in an intuitive or holistic fashion.
+
+In contrast, MCDA. (Multi-Criteria Decision Analysis) / MCPRM. (Multi-Criteria. Resision-Making), a sub-discipline of operations research with foundations in economics, | software (e.g. 1000minds (https://www.1000minds.com/decision-making)), involve the explicit weighting of criteria and the trade-offs between them.
+Human: What are the different coding libraries to make decision?
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+> Finished chain.
+
+> Finished chain.
+bash-3.2$
+
+
+
+
